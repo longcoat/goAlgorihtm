@@ -4,7 +4,7 @@ function solution(n) {
   while (factorial <= n) {
     i++;
     factorial *= i;
-    console.log(factorial, i);
+    // console.log(factorial, i);
   }
   return i - 1;
 }
