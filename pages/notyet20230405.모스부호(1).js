@@ -27,7 +27,10 @@ function solution(letter) {
     "-.--": "y",
     "--..": "z",
   };
-  return morse.split;
+  let letterMorse =
+    letter
+      .split(" ")
+      .map((el) => morse[el])
+      .join("") + "";
+  return letterMorse;
 }
-
-// 좀 더 생각해보자
