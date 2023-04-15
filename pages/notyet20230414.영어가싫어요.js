@@ -11,9 +11,11 @@ function solution(numbers) {
     "eight",
     "nine",
   ];
-  let answer = numbers.forEach((el, index) => el);
-  // replace???
-  // replaceAll???? 뭘 어떻게 대체 써야하는 걸까?
+  let answer = numString.forEach(
+    (el, index) => (numbers = numbers.split(el).join(String(index)))
+  );
+  consoe.log(numbers);
+  // return (Number(numbers))
 }
 
-// 다시 생각해보자
+// 일단 하긴했는데 뭔가 콘솔로그 찍어도 제대로 안나오고 체크가 잘 안되는데 흠...
