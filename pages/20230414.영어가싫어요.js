@@ -17,5 +17,3 @@ function solution(numbers) {
   // consoe.log(numbers)
   return Number(numbers);
 }
-
-// 내일 다시한번 봐보자
